@@ -1,0 +1,43 @@
+{
+  "name": "barber2",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/datetimepicker": "^8.2.0",
+    "@react-native-picker/picker": "^2.9.0",
+    "@react-native/gradle-plugin": "^0.76.3",
+    "@react-navigation/bottom-tabs": "^7.0.7",
+    "@react-navigation/native": "^7.0.4",
+    "@react-navigation/stack": "^7.0.6",
+    "expo": "~52.0.11",
+    "expo-sqlite": "~15.0.3",
+    "expo-status-bar": "~2.0.0",
+    "firebase": "^11.0.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-calendars": "^1.1307.0",
+    "react-native-date-picker": "^5.0.7",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-paper": "^5.12.5",
+    "react-native-reanimated": "^3.16.3",
+    "react-native-safe-area-context": "^4.12.0",
+    "react-native-screens": "~4.1.0",
+    "react-native-vector-icons": "^10.2.0",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2"
+  },
+  "private": true,
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
